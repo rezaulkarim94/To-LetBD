@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/search_tolet"
+            android:icon="@android:drawable/ic_search_category_default"
+            android:title="Search for To-Let" />
+        <item
+            android:id="@+id/postandad"
+            android:icon="@drawable/yourpost"
+            android:title="Post and Ad" />
+        <item
+            android:id="@+id/my_posts"
+            android:icon="@drawable/yourpost"
+            android:title="My Posts" />
+        <item
+            android:id="@+id/myfavourites"
+            android:icon="@drawable/love"
+            android:title="My Favourites" />
+    </group>
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/myapplication"
+                android:title="My Application" />
+
+        </menu>
+    </item>
+
+</menu>
